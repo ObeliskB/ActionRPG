@@ -5,7 +5,7 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Character
 {
-     //attributes
+    //attributes
     public string name;  //name 
     public int hp;       //Hit points
     public Character(string n, int h)  //constructor
