@@ -20,7 +20,6 @@ public class Gameplay : MonoBehaviour
     Image hpBar;
     Character player;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player = new Character("PicoChan", 100);
@@ -29,8 +28,7 @@ public class Gameplay : MonoBehaviour
         playerName.text = player.name;
     }
 
-    // Update is called once per frame
-    void Update()
+        void Update()
     {
         hpBar.fillAmount = (float)player.hp / 100;
     }
